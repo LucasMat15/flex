@@ -1,0 +1,24 @@
+.container>div{
+    background-color: #c9c9c9;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    font-size: 60px;
+}
+.container{
+    background-color: violet;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+@media only screen and (min-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .caixa2{
+        display: none;
+    }
+}
